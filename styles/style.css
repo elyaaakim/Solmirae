@@ -1,0 +1,100 @@
+a{
+    color: rgba(82, 72, 199, 1);
+    text-decoration: none;
+
+}
+
+body{
+    background: rgb(223,217,206);
+    background: linear-gradient(90deg, rgba(223,217,206,1) 0%, rgba(246,176,225,1) 50%, rgba(217,157,247,1) 100%);
+    color: rgba(82, 72, 199, 1);
+    font-family: 'Syne', sans-serif;
+    line-height: 1.5;
+
+    
+}
+
+footer{
+    border-top: 3px solid white;
+    padding: 1.11em 0;
+    font-size: .9em;
+}
+
+footer img{
+    height: 70px;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin-bottom: 1em;
+    font-family: 'Elsie Swash Caps', serif;
+}
+
+li{
+    list-style: none;
+}
+
+/*classes*/
+
+.container .menu{
+    align-content: center;
+    display: grid;
+    place-items: center;
+}
+
+.container .menu a:hover{
+    color: deeppink;
+}
+
+.container .row .aboutme{
+    display: flex;
+}
+
+.container .row .col-6 img{
+    width: 100%;
+    border-radius: 45%;
+}
+
+span{
+    font-family:'Elsie Swash Caps', serif;
+    font-size: 150px;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuitem{
+    margin-bottom: 100px;
+}
+
+.navbar{
+    border-bottom: 3px solid white;
+    padding: .5em;
+    margin-bottom: 100px;
+}
+
+.navbar .container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+}
+
+.navbar .container img{
+    height: 70px;
+    width: 100%;
+}
+
+.navbar .container .brand{
+    height: 50%;
+}
+
+.navbar .container .menu{
+    width: 100px;
+}
+
+
+
