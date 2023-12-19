@@ -18,5 +18,100 @@
             </ul>
         </div>
     </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <main>
+                    <form 
+                    action="mailto:lyanah.delrosario@gmail.com" 
+                    method="post"
+                    enctype="text/plain"
+                    class="contact-form">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3>Contact Me</h3>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <!--first and last name-->
+                            <div class="row">
+                                <div class="col-6">
+                                    <label for="first-name-input">First Name</label>
+                                    <input type="text" id="first-name-input" name="first-name" placeholder="Joe" required>
+                                </div>
+                                <div class="col-6">
+                                    <label for="last-name-input">Last Name</label>
+                                    <input type="text" id="last-name-input" name="last-name" placeholder="Mama" required>
+                                </div>
+                            </div>
+                            <!--email address-->
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="email-address-input">Email Address</label>
+                                    <input type="text" id="email-address-input" name="email-address" placeholder="joeborg@gmail.com" required>
+                                </div>
+                            </div>
+                            <!--drop down list-->
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="topic-dropdown-list">Topic</label>
+                                    <select name="topic" id="topic-dropdown-list" required>
+                                        <option value=""></option>
+                                        <option value="tech-support">Technical Support</option>
+                                        <option value="collab">Collaboration</option>
+                                        <option value="commis">Commission</option>
+                                        <option value="prompts">Prompt Ideas</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!--Subject-->
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="subject-input">Subject</label>
+                                    <input type="text" id="subject-input" name="subject" placeholder="Logos" required>
+                                </div>
+                            </div>
+                            <!--Messageeeeeeee-->
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="message-textarea">Message</label>
+                                    <textarea name="message" id="message-textarea" cols="30" rows="10" placeholder="Please enter your message here..." required></textarea>
+                                </div>
+                            </div>
+                            <!--buttons-->
+                            <div class="row">
+                                <div class="col-6">
+                                    <button type="submit" class="button">Send</button>
+                                </div>
+                                <div class="col-6">
+                                    <button type="reset" class="button clear">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>                   
+                </main>
+            </div>
+            <div class="col-4">
+                <aside>
+                    <div class="contact-details">
+                        <h3>Snail Mail</h3>
+                        <p>
+                            1, GamesNet,
+                            <br> <!--paragraph break-->
+                            Triq il-Kbira
+                            <br>
+                            Mosta
+                        </p>
+                        <!--horizontal rule - a separator line-->
+                        <hr>
+                        <h3>Email</h3>
+                        <a href="mailto:lyanah.delrosario@gmail.com">lyanah.delrosario@gmail.com</a>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
