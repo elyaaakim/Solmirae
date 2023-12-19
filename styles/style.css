@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6{
     margin-bottom: 1em;
     font-family: 'Elsie Swash Caps', serif;
 }
-
+/**
 li{
     list-style: none;
 }
@@ -37,6 +37,7 @@ li{
 /*classes*/
 
 .container .menu{
+    list-style: none;
     align-content: center;
     display: grid;
     place-items: center;
