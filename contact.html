@@ -20,9 +20,9 @@
     </nav>
 
     <div class="container">
-        <div class="row">
+        <main>
+        <div class="row contact">
             <div class="col-8">
-                <main>
                     <form 
                     action="mailto:lyanah.delrosario@gmail.com" 
                     method="post"
@@ -30,7 +30,7 @@
                     class="contact-form">
                         <div class="row">
                             <div class="col-12">
-                                <h3>Contact Me</h3>
+                                <h3 class="contacttitle">Contact Me</h3>
                             </div>
                         </div>
                         <div class="container">
@@ -42,7 +42,7 @@
                                 </div>
                                 <div class="col-6">
                                     <label for="last-name-input">Last Name</label>
-                                    <input type="text" id="last-name-input" name="last-name" placeholder="Mama" required>
+                                    <input type="text" id="last-name-input" name="last-name" placeholder="Borg" required>
                                 </div>
                             </div>
                             <!--email address-->
@@ -58,7 +58,6 @@
                                     <label for="topic-dropdown-list">Topic</label>
                                     <select name="topic" id="topic-dropdown-list" required>
                                         <option value=""></option>
-                                        <option value="tech-support">Technical Support</option>
                                         <option value="collab">Collaboration</option>
                                         <option value="commis">Commission</option>
                                         <option value="prompts">Prompt Ideas</option>
@@ -69,7 +68,7 @@
                             <div class="row">
                                 <div class="col-12">
                                     <label for="subject-input">Subject</label>
-                                    <input type="text" id="subject-input" name="subject" placeholder="Logos" required>
+                                    <input type="text" id="subject-input" name="subject" placeholder="e.g. Logos" required>
                                 </div>
                             </div>
                             <!--Messageeeeeeee-->
@@ -90,28 +89,23 @@
                             </div>
                         </div>
                     </form>                   
-                </main>
-            </div>
-            <div class="col-4">
-                <aside>
-                    <div class="contact-details">
-                        <h3>Snail Mail</h3>
-                        <p>
-                            1, GamesNet,
-                            <br> <!--paragraph break-->
-                            Triq il-Kbira
-                            <br>
-                            Mosta
-                        </p>
-                        <!--horizontal rule - a separator line-->
-                        <hr>
-                        <h3>Email</h3>
-                        <a href="mailto:lyanah.delrosario@gmail.com">lyanah.delrosario@gmail.com</a>
-                    </div>
-                </aside>
+                
             </div>
         </div>
+    </main>
     </div>
 
+    <footer>
+        <div class="container">
+            &copy;
+            <h3>
+                Let's Talk
+            </h3>
+            <p>
+                lyanah.delrosario@gmail.com
+            </p>
+            <a href="index.html" class="logo"><img src="assets/Solmirae Assets/Logo.png" alt="Solmirae Logo"></a>
+        </div>
+    </footer>
 </body>
 </html>

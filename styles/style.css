@@ -10,14 +10,23 @@ body{
     color: rgba(82, 72, 199, 1);
     font-family: 'Syne', sans-serif;
     line-height: 1.5;
-
-    
+    font-size: 25px;
 }
 
+h1, h2, h3, h4, h5, h6{
+    margin-bottom: .7em;
+    font-family: 'Elsie Swash Caps', serif;
+}
+
+/*footer*/
+/* top bottom - left right */
 footer{
+    justify-content: center;
     border-top: 3px solid white;
-    padding: 1.11em 0;
+    padding: 1.11em 0 .5em 0;
     font-size: .9em;
+    font-size: 25px;
+    margin-top: 100px;
 }
 
 footer img{
@@ -25,16 +34,25 @@ footer img{
     width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6{
-    margin-bottom: 1em;
-    font-family: 'Elsie Swash Caps', serif;
+footer .container{
+    display: flex;
+    justify-content: space-between;
 }
+
+
+
 /**
 li{
     list-style: none;
 }
 
 /*classes*/
+.container .rows{
+    /*ginawa kong *rows* instead of the entitirety of rows sa container
+    kasi iba sa contacts - rows din sya kaso ayoko ng margin kaya nag NEW CLASS ako
+    NEW CLASS *ROW**/
+    margin: 100px 0;
+}
 
 .container .menu{
     list-style: none;
@@ -52,27 +70,27 @@ li{
 }
 
 .container .row .col-6 img{
+    margin-top: 10%;
     width: 100%;
-    border-radius: 45%;
+    border-radius: 80%;
 }
+
 
 span{
     font-family:'Elsie Swash Caps', serif;
     font-size: 150px;
 }
 
-footer .container{
-    display: flex;
-    justify-content: space-between;
+
+.menuitem1{
+    margin-bottom: 85px;
 }
 
-.menuitem{
-    margin-bottom: 100px;
-}
-
+/*navigation*/
 .navbar{
+    justify-content: center;
     border-bottom: 3px solid white;
-    padding: .5em;
+    padding: .7em 0 .3em 0;
     margin-bottom: 100px;
 }
 
@@ -93,18 +111,121 @@ footer .container{
     height: 50%;
 }
 
+.navbar .container .brand img{
+    height: 50px;
+}
+
 .navbar .container .menu{
     width: 100px;
 }
+.navbar .container .menu img{
+    width: 60px;
+    height: 40px;
+}
 
+/*about*/
+.quote,
+.currently{
+    justify-content: center;
+}
 
-
-
-
+.song{
+    background-image: url(assets\Solmirae-Assets\Taylor_Swift_-_1989.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+.quotetitle{
+    text-align: center;
+}
 .aboutLists{
     margin-left: 150px;
 }
 
-.aboutLists li{
-    
+
+/*contact*/
+
+.contact{
+    justify-content: center;
 }
+
+.contacttitle{
+    text-align: center;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form select,
+.contact-form textarea{
+    display: block;
+    width: 100%;
+}
+
+.contact-form label{
+    margin-bottom: 0.5em;
+
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea{
+    border: 2px solid white;
+    padding: .5em;
+    border-radius: 8px;
+}
+
+.contact-form :invalid{
+    border-color: white;
+    color: rgba(82, 72, 199, 1);
+}
+
+.contact-form :invalid::placeholder{
+    color: deeppink;
+}
+
+.contact-form button{
+    cursor: pointer;
+    width: 100%;
+    /*font-size: 1.2em;
+    padding: .8em;*/
+}
+
+.contact-form button:hover{
+    color: rgba(82, 72, 199, 1)
+}
+
+.contact-form button.clear:hover{
+    background-color: rgba(82, 72, 199, 1);
+    color: white;
+}
+/*
+.contact-details hr{
+    border: none;
+    border-top: 3px solid white;
+    margin: 2em 0; /*top-bottom left-right
+}
+.contact-details h3{
+    margin-top: 1em;
+}
+
+.contact-details p{
+    margin: .5em;
+}
+
+.contact-details a{
+    margin:.5em;
+}
+*/
+
+.button{
+    font-family: 'Syne', sans-serif;
+    background-color: white;
+    padding: .5em .75em;
+    border: none;
+    border-radius: 8px;
+    color: rgba(82, 72, 199, 1);
+}
+
