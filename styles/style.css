@@ -107,11 +107,13 @@ p{
     border-radius: 100px;
 }
 .container .row .col-6 .projectimg{
+    margin-top: 5%;
     width: 100%;
     border-radius: 100px;
 }
 
 .container .row .col-6 .articleimgmain{
+    margin-top: 5%;
     width: 100%;
     border-radius: 100px;
 }
