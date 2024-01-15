@@ -8,7 +8,9 @@ a:visited{
 a:active{
     color: rgba(82, 72, 199, 1);
 }
-
+a:hover{
+    color: deeppink;
+}
 .image-box {
     border-radius: 50px;
     position: relative;
